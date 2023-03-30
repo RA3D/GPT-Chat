@@ -6,13 +6,14 @@ ChatGPT is a simple Flask web application that allows users to interact with the
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Configuration](#configuration)
 - [Customization](#customization)
 
 ## Installation
 
 1. Clone this repository to your local machine:
 
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/RA3D/GPT-Chat.git
 
 
 2. Install the required dependencies:
@@ -37,6 +38,18 @@ python app.py
 2. Open your web browser and navigate to the address where the Flask application is running (default: `http://127.0.0.1:5000/`).
 
 3. Start chatting with ChatGPT by typing a message in the input field and clicking the "Send" button or pressing the "Enter" key.
+
+## Configuration
+
+Before you can use the ChatGPT application, you need to set your OpenAI API key in the `chat_gpt.py` file.
+
+1. Generate an API key at https://platform.openai.com/account/api-keys.
+2. Open the `chat_gpt.py` file in your favorite text editor.
+3. Locate the line where the API key is set (e.g., `openai.api_key = "your_api_key"`).
+4. Replace `"your_api_key"` with your actual OpenAI API key, which should be a string like `"sk-abcdefgh1234567890"`.
+5. Save the changes to the `chat_gpt.py` file.
+
+Now your ChatGPT application is ready to use with your OpenAI API key.
 
 ## Customization
 
