@@ -1,6 +1,6 @@
 # GPT Chat
 
-GPT Char is a simple Flask web application that allows users to interact with the OpenAI GPT model. It features a modern chat interface using Bootstrap and includes request limits to prevent abuse.
+GPT Chat is a simple Flask web application that allows users to interact with the OpenAI GPT model. It features a modern chat interface using Bootstrap and includes request limits to prevent abuse.
 
 ## Table of Contents
 
