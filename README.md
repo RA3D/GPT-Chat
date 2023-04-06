@@ -1,6 +1,6 @@
-# ChatGPT
+# GPT Chat
 
-ChatGPT is a simple Flask web application that allows users to interact with the OpenAI GPT model. It features a modern chat interface using Bootstrap and includes request limits to prevent abuse.
+GPT Char is a simple Flask web application that allows users to interact with the OpenAI GPT model. It features a modern chat interface using Bootstrap and includes request limits to prevent abuse.
 
 ## Table of Contents
 
@@ -41,7 +41,7 @@ python app.py
 
 ## Configuration
 
-Before you can use the ChatGPT application, you need to set your OpenAI API key in the `chat_gpt.py` file.
+Before you can use the GPT Chat application, you need to set your OpenAI API key in the `chat_gpt.py` file.
 
 1. Generate an API key at https://platform.openai.com/account/api-keys.
 2. Open the `chat_gpt.py` file in your favorite text editor.
@@ -49,7 +49,7 @@ Before you can use the ChatGPT application, you need to set your OpenAI API key 
 4. Replace `"your_api_key"` with your actual OpenAI API key, which should be a string like `"sk-abcdefgh1234567890"`.
 5. Save the changes to the `chat_gpt.py` file.
 
-Now your ChatGPT application is ready to use with your OpenAI API key.
+Now your GPT Chat application is ready to use with your OpenAI API key.
 
 ## Customization
 
